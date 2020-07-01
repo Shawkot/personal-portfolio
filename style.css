@@ -34,7 +34,7 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('jumbotron1.jpg');
+  background-image: url('background.jpg');
   background-size: cover;
   color: #800000;
   height: 600px;
