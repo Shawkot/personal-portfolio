@@ -219,3 +219,6 @@ div.contact h3{
 .color {
     color: red;
 }
+.col-sm-12 .center {
+    border-radius: 50%;
+}
