@@ -143,6 +143,21 @@ figure img {
 figure {
   margin-bottom: 30px;
 }
+/*.me {
+    display: center;
+    margin-left: 60px;
+}*/
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+div.a {
+    text-align: center;
+    margin-top: 20px;
+}
 
 footer {
   font-size: 12px;
