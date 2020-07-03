@@ -1,11 +1,14 @@
 body {
-  font-family: Roboto, sans-serif;
-  background-color: #FFA500; 
+  font-family: Helvetica, sans-serif;
+  background-color: honeydew;
+  /*background-image: url("nature.jpg");
+  background-size: cover;*/
 }
 
 header {
   padding: 20px 0;
   align-items: left-side;
+  margin: 10px;
 }
 
 header .row,
@@ -16,19 +19,44 @@ footer .row {
 
 h1 {
   font-weight: 700;
-  margin: 0;
+  margin: 0px;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
 }
+
 .col-sm-6 a {
     color: #000000;
 }
 a {
   padding: 0 0px;
   margin: 0;
+}
+a:hover {
+    background-color: #E5FFCC;
+    position: relative;
+    text-decoration: none;  
+}
+a:active {
+    background-color: #E5FFCC;
+    position: relative;
+    top: 2px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+strong {
+    font-size: 20px;
+    color: teal;
+}
+h2 {
+    font-size: 32px;
+    color: teal;
+    text-decoration: strong;
 }
 
 .jumbotron {
@@ -45,13 +73,23 @@ a {
   font-weight: 700;
   margin: 0;
   color: #800000;
-  background-color: white;
+  background-color: #cce5ff;
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #000080;
-  background-color:white;
+  background-color:#cce5ff;
+}
+h4 {
+    justify-content: center-right;
+    background-color: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 60px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 section .row img {
@@ -60,29 +98,34 @@ section .row img {
 }
 
 .col-md-6 {
-  margin: 0 0 30px;
+  margin: 0 0 20px;
 }
 .col-sm-6 a{
-  border: 0.5px solid;
+  border: 0.5px;
   border-radius: 5px;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .btn.btn-primary {
-  border-radius: 2px;
+  border-radius: 1px;
   border: 0px;
-  color: #fbd1d5;
-  background-color: #ffffff;
+  color: #000000;
+  background-color: white;
+  
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+  color: #000000;
+  background-color: teal;
+}
+.btn.btn-primary:active {
+  position: relative;
+  top: 2px;
 }
 
 .btn-secondary {
-  background-color: #2a70e0;
+  background-color: #000000;
   color: #ffffff;
   margin: 0 0 30px;
 }
@@ -112,8 +155,42 @@ footer .col-sm-8 {
 }
 .col-sm-2 a {
     color: #000000;
+    float: right;
 }
 
 footer ul {
   list-style: none;
+}
+.home a{
+    float: right;
+    border-radius: 5px;
+    background-color: pink;
+    color: black;
+    margin-right: 30px;
+    padding: 4px 10px;
+}
+.home a:active {
+    position: relative;
+    top: 2px;
+}
+.section2 {
+    background-color: none;
+    color: teal;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.section2 h3 {
+    font-weight: 500px;
+    text-decoration:underline;
+    margin-bottom: 20px;
+}
+.section2 p{
+    margin: 0px;
+    padding: 0px;
+}
+.para {
+    color:black;
+    margin: 0px;
+    padding:0px;
+    font-size: 18px;
 }
