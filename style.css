@@ -209,3 +209,12 @@ footer ul {
     padding:0px;
     font-size: 18px;
 }
+div.contact {
+    text-align:center
+}
+div.contact h3{
+    text-decoration: underline;
+}
+.color {
+    color: red;
+}
