@@ -35,6 +35,12 @@ a {
   padding: 0 0px;
   margin: 0;
 }
+@media all and (max-width: 320px) {
+    .col-sm-6 a {
+        display: block;
+        margin: 5px 0px;
+    }
+}
 a:hover {
     background-color: #E5FFCC;
     position: relative;
